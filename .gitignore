@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Databases
+*.db
+data/hospital.db
+
+# Backups & Logs
+data/backup/
+*.csv
+*.log
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/

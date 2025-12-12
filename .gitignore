@@ -1,18 +1,35 @@
-# Python
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Environment
+# Environment variables
 .env
+.env.* 
+venv/
+.venv/
 
-# Databases
+# SQLite Databases
 *.db
 data/hospital.db
+data/*.db
 
-# Backups & Logs
+# Backups & Sensitive CSVs
 data/backup/
+data/backup/*
 *.csv
-*.log
+audit_logs.csv
+anonymized_patients.csv
 
-# Jupyter notebooks checkpoints
+# Logs
+*.log
+logs/
+logs/*
+
+# Jupyter
 .ipynb_checkpoints/
+*.ipynb
+
+# Streamlit
+.streamlit/secrets.toml
